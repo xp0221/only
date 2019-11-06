@@ -1,0 +1,54 @@
+.progressBig {
+  width: 6rem;
+  .progressBigTitle {
+    font-family: 'PingFangSC-Medium';
+    font-size: .32rem;
+    color: #FFFFFF;
+    letter-spacing: 0;
+    width: 6rem;
+    height: 1rem;
+    flex-wrap: nowrap;
+    // text-overflow:clip;
+    // overflow: hidden;
+  }
+
+  .progressDetail {
+    display: flex;
+    justify-content: space-between;
+    font-family: 'PingFangSC-Medium';
+    letter-spacing: 0;
+    margin-bottom: -.05rem;
+    .date {
+      color: #999999;
+
+      .finished {
+        font-size: .32rem;
+        color: #999999;
+
+      }
+    }
+
+    .target {
+      font-size: .2rem
+    }
+    .progress{
+      margin-right: .7rem;
+    }
+    .progressData-name,
+    .progressData {
+      font-family: 'MicrosoftYaHei';
+      font-size: .24rem;
+      color: #CCCCCC;
+      letter-spacing: 0;
+      text-align: right;
+    }
+  }
+
+  .ant-progress-inner {
+    background-color: rgba(233, 233, 233, 0.15)
+  }
+
+  .ant-progress-text {
+    display: none;
+  }
+}
